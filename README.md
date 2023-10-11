@@ -43,6 +43,7 @@ if __name__ == '__main__':
     time_costs = datetime.now() - start_time
     # печатается вывод времени
     print(f"Время выполнения программы - {time_costs}")
+    
 Результат.
 ![Tema4_1](https://github.com/DarknessWillCame/TEMA-4/assets/46960566/086b20a5-a151-43cd-8887-6e1dae6ca9f6)
 
@@ -68,6 +69,7 @@ def main():
         print('Вы проиграли')
 if __name__ == '__main__':
     main()
+    
 Результат.
 ![Tema4_2](https://github.com/DarknessWillCame/TEMA-4/assets/46960566/979e512e-83fa-429a-bb05-5626d536db63)
 
@@ -85,6 +87,7 @@ for i in range(5):
     date = datetime.now()
     print(date.time())
     sleep(1)
+    
 Результат.
 ![Tema4_3](https://github.com/DarknessWillCame/TEMA-4/assets/46960566/c4795715-ff18-4397-b503-36f24adab273)
 
@@ -136,10 +139,11 @@ b = int(input('Введите сторону b: '))
 c = int(input('Введите сторону c: '))
 
 print('S =', calc_truangle_square_gerone_calc(a, b, c))
+
 Результат.
 ![Tema4_5](https://github.com/DarknessWillCame/TEMA-4/assets/46960566/717b7f3a-be02-410a-82ef-f7935bbb8405)
 
-Результат задания 1
+Результат задания 5
 
 Выводы
 Я узнал, что в python логические блоки кода можно выносить в отдельные модули
